@@ -8,7 +8,7 @@ const base = '/huoyeeh-wiki/'
 export default defineConfig({
   base,
   title: '📚 Huoyeeh Wiki',
-  description: 'Huoyeeh 的个人技术学习知识库：Linux、K8s、云原生、Git/GitHub',
+  description: 'Huoyeeh 的个人技术学习知识库：Linux、K8s、云原生、Git/GitHub、AIOps',
   lang: 'zh-CN',
 
   // 侧边栏：按目录组织，与 docs/ 下的文件夹一一对应
@@ -19,7 +19,8 @@ export default defineConfig({
       { text: 'Git / GitHub', link: '/git-github/' },
       { text: 'Linux', link: '/linux/' },
       { text: 'Kubernetes', link: '/kubernetes/' },
-      { text: '云 / DevOps', link: '/cloud/' }
+      { text: '云 / DevOps', link: '/cloud/' },
+      { text: 'AIOps', link: '/aiops/' }
     ],
     sidebar: {
       '/git-github/': [
@@ -55,6 +56,20 @@ export default defineConfig({
           text: '云 / DevOps 学习',
           items: [
             { text: '总览', link: '/cloud/' }
+          ]
+        }
+      ],
+      '/aiops/': [
+        {
+          text: 'AIOps 课程笔记',
+          items: [
+            { text: '总览', link: '/aiops/' },
+            { text: '1 大模型基础', link: '/aiops/1_大模型基础' },
+            { text: '2 大模型私有部署', link: '/aiops/2_大模型私有部署' },
+            { text: '3 大模型微调', link: '/aiops/3_大模型微调' },
+            { text: '4 大模型优化', link: '/aiops/4_大模型优化' },
+            { text: '5 智能体Agent实战', link: '/aiops/5_智能体Agent实战' },
+            { text: '6 打卡任务', link: '/aiops/6_打卡任务' }
           ]
         }
       ]
