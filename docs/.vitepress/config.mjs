@@ -28,7 +28,9 @@ export default defineConfig({
           items: [
             { text: '总览', link: '/git-github/' },
             { text: 'Git 基础', link: '/git-github/git-basics' },
-            { text: '用 GitHub Pages 建站', link: '/git-github/github-pages' }
+            { text: '用 GitHub Pages 建站', link: '/git-github/github-pages' },
+            { text: '建站实操记录', link: '/git-github/build-record' },
+            { text: '建站问题排查', link: '/git-github/troubleshooting' }
           ]
         }
       ],
