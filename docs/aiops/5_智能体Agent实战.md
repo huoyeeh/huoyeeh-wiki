@@ -51,7 +51,7 @@ AI Agent（人工智能智能体）：围绕**目标**，依次完成**感知环
     - 办公 Agent：创建会议、发送邮件、修改文件
     - 机器人 Agent：移动小车、控制机械臂
 > 总结：五大能力相互协作，让智能体理解世界、制定计划、利用经验、调用工具并付诸行动，自主完成复杂任务
-![图片](https://note.youdao.com/yws/public/resource/cfa4f191aafadc59017aaeafbed03d0e/xmlnote/WEB75d7c81aefea34f24e40b0478e4511de/WEBRESOURCE0f80d86785b0c3273c078643d6f787f2/8240)
+![图片](./images/0f80d86785b0c3273c078643d6f787f2.png)
 ### 5.1.3 Agent运行机制
 #### 智能体运行闭环（Observe → Think → Act）
 核心目标：讲解 Agent 经典 O-T-A 运行闭环：观察 (Observe)→思考 (Think)→行动 (Act)，结合科研 Agent 案例展示完整循环迭代逻辑。
@@ -63,7 +63,7 @@ AI Agent（人工智能智能体）：围绕**目标**，依次完成**感知环
 1. **执行任务（Act 行动）**：执行动作
 1. **获得反馈**：接收环境返回结果
 1. **调整方案**：根据反馈优化计划，回到观察环节，循环迭代
-![图片](https://note.youdao.com/yws/public/resource/cfa4f191aafadc59017aaeafbed03d0e/xmlnote/WEB75d7c81aefea34f24e40b0478e4511de/WEBRESOURCEd880be6afc3a146b875d37f2634e38b7/8245)
+![图片](./images/d880be6afc3a146b875d37f2634e38b7.png)
 ### 5.1.4 智能体开发平台
 #### 5.1.4.1 云端智能体开发平台
 **定位**：面向普通用户和企业，快速创建自己的智能体。**特点**
